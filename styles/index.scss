@@ -1,0 +1,29 @@
+@import 'nav';
+@import 'home-main';
+@import 'home-grid';
+@import 'home-middle';
+@import 'home-table';
+@import 'projects-main';
+@import 'projects-lower-txt';
+@import 'projects-imgs';
+@import 'contact-main';
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    color: #111111;
+    max-width: 1360px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+}

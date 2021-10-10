@@ -1,0 +1,47 @@
+.projects-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &__h2 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    &__p {
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 80%;
+    }
+}
+
+.projects-table {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+
+
+    &__first {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        opacity: 50%;
+        height: 50px;
+        width: 130px;
+    }
+
+    &__second {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        width: 205px;
+        white-space: nowrap;
+    }
+
+    & td {
+        border-bottom: 1px solid #97979730;
+    }
+}

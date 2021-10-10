@@ -1,0 +1,63 @@
+.home-table {
+    table-layout: fixed;
+    max-width: 1110px;
+    width: 100%;
+    margin-bottom: 50px;
+
+    &__first {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    
+    &__genesis {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 50px;
+        text-align: right;
+    }
+
+    &__span {
+        padding-top: 10px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #111111;
+        opacity: 60%;
+    }
+
+    &__year {
+        text-align: end;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+td {
+    max-width: 1100px;
+    width: 100%;
+}
+
+tr {
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.table-home {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+hr {
+    color: #D8D8D8;
+    background-color: #D8D8D8;
+    border-color: #D8D8D8;
+    opacity: 0,3;
+}

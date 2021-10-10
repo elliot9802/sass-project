@@ -1,0 +1,44 @@
+.nav {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+    &__footer-right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    &__li {
+        margin-right: 34px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+}
+
+.icons {
+    margin: auto;
+    margin-left: 50px;
+
+    &__icon {
+        margin: 7px;
+    }
+}
+
+.img-container {
+    margin: auto 0;
+}

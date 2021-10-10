@@ -1,0 +1,102 @@
+.contact-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+
+    &__text {
+        width: 475px;
+    }
+        &__h2 {
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 55px;
+        }
+
+        &__p {
+            font-size: 16px;
+            line-height: 26px;
+            opacity: 80%;
+        }
+
+    &__form {
+        width: 475px;
+        flex-direction: row;
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+
+        & hr {
+            border-bottom: 1px solid #97979730;
+        }
+
+        & input {
+            border: none;
+        }
+
+        & button {
+            background-color: #4A4FF2;
+            color: #FFFF;
+            border: none;
+            text-align: center;
+            display: inline-block;
+            font-weight: bold;
+            font-family: 'Mulish', sans-serif;
+            font-size: 16px;
+            padding: 16px 35px;
+        }
+}
+
+label[for="name"] {
+    font-size: 0;
+}
+
+label[for="name"]::after {
+    content: "Name";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 60%;
+}
+
+label[for="email"] {
+    font-size: 0;
+}
+
+label[for="email"]::after {
+    content: "Email";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 60%;
+}
+
+label[for="message"] {
+    font-size: 0;
+}
+
+label[for="message"]::after {
+    content: "Message";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 60%;
+}
+
+label[for="submit"] {
+    font-size: 0;
+}
+
+label[for="submit"]::after {
+    content: "Submitt";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 60%;
+}
+
+.responsive-map {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}

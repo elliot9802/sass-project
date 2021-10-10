@@ -1,0 +1,35 @@
+.home-middle {
+    padding: 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        margin-right: 39px;
+    }
+    
+    &__li {
+        font-size: 18px;
+        line-height: 23px;
+        color: #111111;
+        opacity: 60%;
+        list-style: none;
+    }
+
+    &__text {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+.home-middle__list__two {
+    margin-left: 10px;
+}
+
+.home-middle__list__one {
+    padding-right: 22px;
+}
